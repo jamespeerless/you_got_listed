@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
 
   s.add_dependency "activesupport", ">= 3"
-  s.add_dependency "httparty", "~> 0.10.2"
+  s.add_dependency "httparty", ">= 0.10.2"
   s.add_dependency "rash", "~> 0.4.0"
   s.add_dependency "will_paginate", ">= 3"
   s.add_development_dependency "rake", "~> 0.9.2"
